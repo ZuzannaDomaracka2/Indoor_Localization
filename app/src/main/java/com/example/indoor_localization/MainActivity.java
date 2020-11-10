@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btn_DB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(MainActivity.this, " OK ", Toast.LENGTH_SHORT).show();
 
             }
         });

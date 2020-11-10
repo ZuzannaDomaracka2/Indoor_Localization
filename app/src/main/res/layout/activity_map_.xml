@@ -6,4 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".MapActivity">
 
+
+    <ImageView
+        android:id="@+id/img_map"
+        android:layout_width="316dp"
+        android:layout_height="319dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/txt_debugM"
+        android:layout_width="182dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="46dp"
+
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/txt_border"
+        android:ems="10"
+        android:gravity="center"
+        android:text="DEBUG TEST WINDOW"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_map"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/btn_1M"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="SETTINGS"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_debugM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toEndOf="@+id/txt_debugM"
+        app:layout_constraintTop_toTopOf="@+id/txt_debugM"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_2M"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+
+        android:text="UPDATE MAP"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_debugM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toEndOf="@+id/txt_debugM"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1M"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_3M"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="SENSOR MODE"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_debugM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toEndOf="@+id/txt_debugM"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2M"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:id="@+id/btn_4M"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="ALGORITHM MODE"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_debugM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toEndOf="@+id/txt_debugM"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3M" />
+
 </android.support.constraint.ConstraintLayout>
