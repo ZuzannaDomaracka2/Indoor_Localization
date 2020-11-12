@@ -46,7 +46,8 @@ public class MapActivity extends AppCompatActivity {
         btn_smode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MapActivity.this, " OK ", Toast.LENGTH_SHORT).show();
+
+                Toast.makeText(MapActivity.this, " OK! ", Toast.LENGTH_SHORT).show();
 
             }
         });
